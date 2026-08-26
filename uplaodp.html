@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skinscan</title>
+
+    <link rel="stylesheet" href="styleup.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="nav_title">
+            <h1>SkinScan</h1>
+        </div>
+        <div id="nav_home_button">
+            <a id="navhomebutton" href="index.html">Home</a>
+        </div>
+        <div id="nav_login_button">
+            <a href=""> <img src="/all_images/vecteezy_user-account-icon-for-your-design-only_21079672.png"
+                    alt="logo"></a>
+        </div>
+    </div>
+
+    <div id="main_uplaod">
+        <div>
+            <h1>Enter your Details</h1>
+        </div>
+
+        <div id="formm">
+            <form action="https://formspree.io/f/xzepgvqo" method="POST" enctype="multipart/form-data">
+                <div id="form_parent">
+                    <div id="form_input_parent">
+                        <div id="form_name">
+                            <label for="Name">Name:</label>
+                            <input type="text" name="Name" placeholder="Name">
+                        </div>
+                        <div id="form_age">
+                            <label for="age">Age:</label>
+                            <input type="text" name="age" placeholder="Age">
+                        </div>
+                        <div id="form_work">
+                            <label for="work">Work:</label>
+                            <input type="text" name="work" placeholder="Work"></input>
+                        </div>
+                        <div id="form_skin">
+                            <label for="form_skin_sel">Choose a car:</label>
+
+                            <select name="form_skin_sel" id="form_skin_opt">
+                                <option value="" selected>--Please choose an option--</option>
+                                <option id="skin_1" value="Fair">Fair</option>
+                                <option id="skin_2" value="Tan">Tan</option>
+                                <option id="skin_3" value="Olive ">Olive</option>
+                                <option id="skin_4" value="Brown">Brown</option>
+                                <option id="skin_5" value="Dark">Dark</option>
+                            </select>
+
+                        </div>
+                        <div id="form_gen">
+                            <div id="form_gen_male">
+
+                                <input type="radio" id="male" name="gen" value="male">
+                                <label for="male">Male</label><br>
+                            </div>
+                            <div id="form_gen_female">
+                                <input type="radio" id="female" name="gen" value="female">
+                                <label for="female">Female</label><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="form_images">
+                        <div id="pic">
+                            <label for="imageUpload">Image:</label>
+                            <input type="file" id="imageUpload" name="imageUpload" accept="image/*" multiple>
+                        </div>
+
+                    </div>
+                    <div id="form_submit_parent">
+                        <button id="formjj" type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
