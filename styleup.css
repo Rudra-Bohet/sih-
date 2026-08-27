@@ -48,7 +48,15 @@ body {
   text-align: center;
 }
 
+#form_skin_parent {
+  margin-top: 1%;
+}
+
 #form_skin {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+
   #skin_1 {
     background-color: #ffdbac;
     color: #ffdbac;
